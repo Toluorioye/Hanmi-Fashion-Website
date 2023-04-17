@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500&family=Inter:wght@100;200;300;400;500;600;700;800&family=League+Gothic&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Macondo&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,800&family=Source+Sans+Pro:wght@200&display=swap');
+body{
+    background-color: rgba(242, 239, 242, 0.8);
+    max-height: 1000vh;
+    color: black;
+   
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Macondo', cursive; */
+
+}
+p{
+    font-size: 17px;
+    font-weight: 100;
+}
+/* navigation */
+.navsocials{
+    background-color: white;
+    text-align: right;
+}
+.navsocials a{
+    margin-right: 20px;
+    color: rgb(77, 25, 77);
+}
+.navbar-brand {
+    padding-right: 25%;
+}
+.nav-item {
+    padding-left: 20px;
+}
+.icon-purple {
+   background-color: rgb(170, 103, 170, 0.6);
+   border-radius: 50%;
+}
+
+/* bg image */
+.text-purple{
+    color:rgb(54, 12, 54) ;
+    margin-bottom:35px ;
+}
+.container{
+    display: inline-block;
+    /* padding: 0; */
+}
+.typed-out{
+    overflow: hidden;
+    font-size: 1.6rem;
+    white-space: nowrap;
+    border-right: .15em solid white;
+    animation: typing 4s steps(60, end) forwards, blink 1s infinite;
+}
+
+@keyframes typing {
+ from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink {
+    from {border-color: transparent;}
+    to {border-color: white;}
+}
+.btn.btn-outline-light.btn-lg{
+    outline: none;
+    border: none;
+}
+/* bespoke section */
+#bstitle{
+    text-decoration: none;
+    color: rgb(129, 51, 129, 0.8);
+    line-height: 0;
+    letter-spacing: 2px;
+  
+}
+.bespoke{
+    text-align: center;
+    overflow: auto;
+}
+.bhead{
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+.bsimg{
+float: right;
+width: 40%;
+height: 30%;
+margin: 15px 30px 20px 5px;
+}
+.bshd{
+margin: 40px 0;
+}
+.bspar { 
+    width: 50%;
+    margin: 100px 5px 0 70px ;
+    text-align: left;
+}
+button.bsbtn{
+    margin:20px 0 40px 34%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: rgb(116, 113, 113);
+    background-color: rgb(74, 16, 74); color: white
+}
+
+/* Training */
+.train {
+    margin: 60px;
+    overflow: auto;
+}
+.trainli {
+    text-decoration: none;
+    color: rgb(129, 51, 129, 0.8) ; 
+}
+#trainhead {
+    text-align: center; 
+    color: rgb(129, 51, 129, 0.8);
+    letter-spacing: 1px;
+}
+
+.train1{
+    float: left;
+    width: 40%;
+    margin: 15px 0 0 25px ;
+}
+
+.train2{
+float: right;
+width: 50%;
+margin: 100px 10px ;
+}
+
+ 
+/* about us */
+.about {
+    margin:40px 50px ; 
+    text-align: center;
+}
+.folapic{
+    border-radius: 5px;
+    margin: 20px;
+}
+#abouthead {
+    color: rgb(129, 51,  129, 0.8)
+}
+.about p{
+    text-align: left;
+    margin-top: 20px;
+}
+/* footer */
+.footer {
+    margin-top: 40px;
+    width: 100%;
+    padding: 60px 5%;
+    display: flex;
+    font-size: 16px;
+}
+.footer div{
+    margin-right: 10%;
+}
+.col-1{
+    width: 40%;
+
+}
+.footer div h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 28px;
+} 
+
+
+.col-2 a{
+    text-decoration: none;
+    color:rgb(74, 16, 74) ;
+    display: block;
+    margin-bottom: 10px;
+}
+.social-icons{
+    margin-top:30px;
+}
+.social-icons svg{
+    margin-right: 30px;
+    font-size: 34px;
+    color: rgb(74, 16, 74);
+}
+.footercl{
+    text-align: center;
+    background-color: rgb(74, 16, 74);
+    color:white;
+    margin-bottom: 0;
+    padding: 20px 0 20px;
+}
+.footercl h6{
+   font-size: 12px;
+}
+
+ /* catalog */
+ .dresscontainer{
+    display: flex;
+    justify-content: center;
+    
+   }
+   .dresses {
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 40px ;
+   }
+   h2{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 34px;
+    color: rgb(83, 21, 83);
+   }
+   .igcatalog{
+    margin: 20px 60px 10px 35% ;
+    background-color: rgb(85, 27, 85);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+   }
+   .igcatalog a{
+text-decoration: none;
+color: white;
+/* background-color: rgb(85, 27, 85); */
+
+   }
+/* contact page */
+.iframe {
+ float: left;
+width: 50%;
+height: 80%;
+}
+.contactinfo{
+    float: right;
+width: 49%;
+margin: 100px 10px 0 0 ;
+}
+.contactpara{
+    color: rgb(114, 118, 118);
+    margin: 20px 0 50px;
+}
+span.contactp{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.contact-info{
+    margin-bottom: 50px;
+}
+#email-id{
+    text-decoration: none;
+    color: rgb(89, 93, 93);
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 48%;
+    margin-top:40px
+}
+#formheading{
+    text-align: center;
+    font-weight: 700;
+}
+form input, textarea{
+    margin:10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+#submitform{
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    background-color: rgb(80, 19, 80);
+    color: white;
+}
+/* hoverrr */
+.social-icons :hover{
+    color:rgb(129, 51, 129, 0.5) ;
+    transition: .3s ease-in;
+}
+a.btn.btn-outline-light.btn-lg :hover{ 
+color: rgb(87, 120, 149);
+}
+.col-2  :hover {
+     color:rgba(153, 91, 153, 0.9) ;
+    transition: .3s ease-in;
+}
+.navsocials a :hover{
+    color: rgb(164, 66, 164);
+    transition: .3s ease-in;
+}
+a.btn.btn-outline-light.btn-lg{
+    background-color: rgb(118, 95, 118);
+    color:black;
+}
+button.bsbtn:hover{
+    background-color: rgb(200, 184, 200);
+    color:rgb(12, 12, 12);
+    transition: .3s ease-in;
+    border: transparent;
+}
+.igcatalog:hover{
+    background-color:rgb(176, 172, 172) ;
+    color:  rgb(80, 19, 80);;
+}
+.igcatalog a:hover{
+    background-color:rgb(176, 172, 172) ;
+    color:  rgb(80, 19, 80);;
+    font-size: 20px;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    body{
+        font-size: 16px;
+    }
+    div.text-purple{
+   width: 300px;
+    }
+   button.navbar-toggler.collapsed{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    
+    .fa-bars{
+        font-size: 25px;
+    }
+    .typed-out{
+        animation: typing 5s steps(30, end) forwards, blink 1s infinite;
+        /* width: 220px; */
+        margin-top: 40px;
+    }
+    .bsimg {
+        float: none;
+        width: 98%;
+        margin: 20px auto ;
+      }  
+
+    .bspar {
+        width: 95%;
+        margin: 20px auto ;
+    }
+    .train {
+        margin: 0px;
+    }
+    .train1{
+        
+        width: 98%;
+        margin: 20px 5px ;
+    }
+    .train2{
+        float: none;
+        width: 95%;
+        margin: 20px 0 0 15px ;
+    }
+    /* contact page */
+  .iframe {
+    float: none;
+   }
+   .contactinfo{
+    float: none;
+    width: 98%;
+   margin: 20px 10px;
+   }
+   form{  
+    width: 100%;
+}
+
+#submitform{
+    width: 35%;
+}
+   /* catalog */
+   .dresscontainer{
+    display: flex;
+    justify-content: center;
+    /* margin: 30px ; */
+   }
+   .dresses {
+    height: 280px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 20px ;
+   }
+   h2{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 34px;
+    color: rgb(83, 21, 83);
+   }
+    .footer {
+        margin-top: 10px;
+        width: 100%;
+        display: inline-block;
+        
+    }
+    .footer div{
+        margin: 0 ;
+        width: 100%;
+    }
+    .footercl{
+        padding: 10px 0 5px;
+        font-size: 1px;
+    }
+    .footercl h6{
+        font-size: 10px;
+    }
+    }
