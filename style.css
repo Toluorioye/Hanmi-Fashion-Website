@@ -396,6 +396,7 @@ button.bsbtn:hover{
     /* margin: 30px ; */
    }
    .dresses {
+    width: 45%;
     height: 280px;
     border-radius: 5px;
     display: inline-block;
